@@ -3,14 +3,14 @@ import { resolve } from 'path';
 
 dotenv.config();
 
-import './src/database';
+import './database';
 
 import express from 'express';
-import homeRoutes from './src/routes/homeRoute';
-import userRoutes from './src/routes/userRoute';
-import tokenRoutes from './src/routes/tokenRoute';
-import alunoRoutes from './src/routes/alunoRoute';
-import fotoRoutes from './src/routes/fotoRoute';
+import homeRoutes from './routes/homeRoute';
+import userRoutes from './routes/userRoute';
+import tokenRoutes from './routes/tokenRoute';
+import alunoRoutes from './routes/alunoRoute';
+import fotoRoutes from './routes/fotoRoute';
 
 class App {
   constructor() {
